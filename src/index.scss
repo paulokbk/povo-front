@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import "~bootstrap/scss/bootstrap";
+
+@import '../public/assets/styles/reset.scss';
+
+
+@import '../public/assets/styles/variables.scss';
+
+@import '../public/assets/styles/animations.scss';
+
+
+@import './components/Header/Header.scss';
+@import './components/NavBar/NavBar.scss';
+@import './components/Carousel/Carousel.scss';
+
+
+html{
+  background-image: url('../public/assets/body-bg1.png');
+  font-family: $primary-font;
+}
+
+body{
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.container{
+  background-color: $primary-white;
+  padding: 0 35px;
+}
